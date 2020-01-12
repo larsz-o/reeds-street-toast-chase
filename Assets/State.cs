@@ -5,7 +5,11 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "State")]
 public class State : ScriptableObject
 {
-    // Start is called before the first frame update
-    [SerializeField] string storyText;
-
+    
+    //this is what will display in our storytext area, but it will change depending upon where we are in the story
+   [TextArea (10, 14)] [SerializeField] string storyText;
+    public string GetStateStory()
+    {
+        return storyText;
+    }
 }

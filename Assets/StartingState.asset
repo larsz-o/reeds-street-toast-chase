@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c68f8c7d0994949c181b5485e8104657, type: 3}
+  m_Name: StartingState
+  m_EditorClassIdentifier: 
+  storyText: "It's finally morning! I've been waiting all night for this. \n\nTime
+    for the morning walk! Usually there are lots of street toasts out there and I'm
+    ready for my breakfast. Let's try to get one of the humans to walk us. \n\nWho
+    will you choose?:\n1. Lars - is afraid of other dogs, might not be able to defend
+    against intruders\n2. Sarah - will take a lot of pictures of you - might snatch
+    up your toasts"

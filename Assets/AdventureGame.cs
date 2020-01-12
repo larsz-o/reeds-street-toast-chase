@@ -5,13 +5,18 @@ using UnityEngine.UI;
 
 public class AdventureGame : MonoBehaviour
 {
+    //SerailizeField gives the ability to map variables onto Unity objects
     [SerializeField] Text textComponent; 
+    [SerializeField] State startingState;
+    int[] oddNumbers = {1, 3, 5, 7, 9};
+    State state;
     // Start is called before the first frame update
     void Start()
     {
-        textComponent.text = (
-            "It's finally morning! I've been waiting all night for this. Time for the morning walk! Usually there are lots of street toasts out there and I'm ready for my breakfast. Let's try to get one of the humans to walk us. Who will you choose? 1. Lars - is afraid of other dogs, might not be able to defend against intruders; 2. Sarah - will take a lot of pictures of you - might snatch up your toasts."
-            );
+        //our initial starting text load 
+        state = startingState;
+        // what will go into the text area where our storytext is displayed
+        textComponent.text = state.GetStateStory();
         
     }
 
