@@ -8,7 +8,7 @@ public class AdventureGame : MonoBehaviour
     //SerailizeField gives the ability to map variables onto Unity objects
     [SerializeField] Text textComponent; 
     [SerializeField] State startingState;
-    int[] oddNumbers = {1, 3, 5, 7, 9};
+  
     State state;
     // Start is called before the first frame update
     void Start()
@@ -23,6 +23,10 @@ public class AdventureGame : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        ManageState();
+    }
+    private void ManageState()
+    {
+        var nextStates = state.GetNextStates();
     }
 }
