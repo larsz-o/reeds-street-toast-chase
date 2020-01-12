@@ -27,6 +27,21 @@ public class AdventureGame : MonoBehaviour
     }
     private void ManageState()
     {
+        // get all of the next states possible
         var nextStates = state.GetNextStates();
+        // if they press 1, move to the first state in the array, and so on
+        if (Input.GetKeyDown(KeyCode.Alpha1))
+        {
+            state = nextStates[0];
+            textComponent.text = state.GetStateStory();
+        } 
+        else if (Input.GetKeyDown(KeyCode.Alpha2)){
+            state = nextStates[1];
+            textComponent.text = state.GetStateStory();
+        } 
+        else if (Input.GetKeyDown(KeyCode.Alpha3)){
+            state = nextStates[2];
+            textComponent.text = state.GetStateStory();
+        }
     }
 }
