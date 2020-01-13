@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c68f8c7d0994949c181b5485e8104657, type: 3}
+  m_Name: x2. Game Over Captured
+  m_EditorClassIdentifier: 
+  storyText: 'We rushed through the front yard, the smell of biscuits in our nostrils.
+    We were flying like paper airplanes in the wind, until Lars spotted us as he was
+    driving away to work. He scooped us up and put us back inside, this time, making
+    sure to lock all of the doors.
+
+
+    We failed.
+
+
+    This is the end of our street toast journey for today.
+
+
+    Want to try again?
+
+    1. Yes, I need that toast!
+
+    2. No, I''m ready for my nap.'
+  nextStates:
+  - {fileID: 11400000, guid: e0d8a2a6542584a81a999200a6d08cdb, type: 2}
+  - {fileID: 11400000, guid: 3b18f9f2931b34eb4b4697a73f481093, type: 2}

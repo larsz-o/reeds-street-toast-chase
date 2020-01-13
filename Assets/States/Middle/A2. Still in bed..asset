@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c68f8c7d0994949c181b5485e8104657, type: 3}
+  m_Name: A2. Still in bed.
+  m_EditorClassIdentifier: 
+  storyText: "What just happened? Did I get the pizza? Oh, I must have fallen asleep.
+    I'm all alone in the bed!! Did I miss my chance??\n\nWhat should we do now?\n\n1.
+    Jump out of bed already and head downstairs. \n2. Chase after the rogue tennis
+    ball."
+  nextStates:
+  - {fileID: 11400000, guid: 34523729adf2548ff8a472a21f44cb44, type: 2}
+  - {fileID: 11400000, guid: f81aa01230d214bf7ab737043b2a119e, type: 2}

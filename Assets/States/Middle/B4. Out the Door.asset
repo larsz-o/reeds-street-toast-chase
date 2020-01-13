@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c68f8c7d0994949c181b5485e8104657, type: 3}
+  m_Name: B4. Out the Door
+  m_EditorClassIdentifier: 
+  storyText: "Okay buddy, this is where it gets real. The back door leads us to the
+    land of pee and smells. My pee, my friend the neighbor cat's pee, some raccoons.
+    It's really nice. I can't wait to show you it and for you to pee also. \n\nBut
+    let's not forgot our true mission: street toast. \n\n\n\n1. Continue"
+  nextStates:
+  - {fileID: 11400000, guid: 2bfa8b5486eb24eeea51dadadbd5e178, type: 2}

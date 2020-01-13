@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c68f8c7d0994949c181b5485e8104657, type: 3}
+  m_Name: A1. 6am. In bed.
+  m_EditorClassIdentifier: 
+  storyText: "The pizza slice was finally within my grasp when I was jolted awake
+    from this heavenly dream by the familiar sound of the alarm clock BEEP BEEEP BEEEEEP
+    BEEEEEEP. \n\nIt's go time. 6am. No snoozing today. The human steps out of bed.
+    Our one mission: get outside and GET SOME STREET TOASTS.\n\nWhat do should we
+    do now?\n\n1. Have a briefing on our mission - we don't want to mess this one
+    up.\n\n2. Immediately fall asleep by accident."
+  nextStates:
+  - {fileID: 11400000, guid: 5a9e8fadfe39743b397ba7a58701947f, type: 2}
+  - {fileID: 11400000, guid: 6b94a16b5b7374191a7ac413b01e1ce8, type: 2}

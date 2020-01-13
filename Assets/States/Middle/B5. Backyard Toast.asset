@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c68f8c7d0994949c181b5485e8104657, type: 3}
+  m_Name: B5. Backyard Toast
+  m_EditorClassIdentifier: 
+  storyText: "Backyard street toast is less common than regular street toast, but
+    it can be more refined. Let's try to dig up some treats out here. \n\nWe spend
+    a few minutes digging around, but there's nothing but an old coffee cup out here.
+    The humans must have cleaned up last night.\n\nI have another idea. We need to
+    sneak out to get to the road. Which way should we go?\n\n1. Escape through the
+    front - everyone should have their trash cans out for collection\n\n2. Sneak through
+    the back to the alley - I think I saw an ice cream cone there last week."
+  nextStates:
+  - {fileID: 11400000, guid: bbf05d0b2269b40d0a1f67c3b25a2cc6, type: 2}
+  - {fileID: 11400000, guid: 15f78d916280d43648262bbc2e1d1c02, type: 2}

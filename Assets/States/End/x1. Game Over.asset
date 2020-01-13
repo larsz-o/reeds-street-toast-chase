@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c68f8c7d0994949c181b5485e8104657, type: 3}
+  m_Name: x1. Game Over
+  m_EditorClassIdentifier: 
+  storyText: "Well, that clearly wasn't the right choice. \n\nYou failed.\n\nThis
+    is the end of your street toast journey for today.\n\nWant to try again?\n1. Yes,
+    I need that toast!\n2. No, I'm ready for my nap."
+  nextStates:
+  - {fileID: 11400000, guid: e0d8a2a6542584a81a999200a6d08cdb, type: 2}
+  - {fileID: 11400000, guid: 3b18f9f2931b34eb4b4697a73f481093, type: 2}

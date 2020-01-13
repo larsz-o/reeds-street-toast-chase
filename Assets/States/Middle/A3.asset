@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c68f8c7d0994949c181b5485e8104657, type: 3}
+  m_Name: A3
+  m_EditorClassIdentifier: 
+  storyText: 'You''re interested in street toasts. I''m glad to hear it. I can use
+    all of the help I can get. The first thing we need to do is convince one of the
+    humans to take us outside. This will be easy. But we need to choose the human
+    wisely. Once we''re out there, we simply smell around for toast left on the street.
+    The humans don''t want us to eat the street toasts, so we''ll need to trick them
+    - and avoid other predators - to eat as much street toast as possible.
+
+
+    Our first decision: who to pick?
+
+
+    1. Lars - is afraid of aggressive dogs, one of our enemies
+
+    2. Sarah - can spot a street toast a mile away'
+  nextStates:
+  - {fileID: 11400000, guid: fbd10bced4d1143fdbf87bc761043186, type: 2}
+  - {fileID: 11400000, guid: c2884e1fb312a45c786f1f1340056d4e, type: 2}

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c68f8c7d0994949c181b5485e8104657, type: 3}
+  m_Name: B3. Continue Waiting
+  m_EditorClassIdentifier: 
+  storyText: 'We have little lie down and try to look as sad as possible. Every once
+    in a while, give a small howl. Whimper. We''re hungry, people! After what seems
+    like half a day, one human, Sarah, emerges from the bathroom. Oh, I guess not
+    everyone left after all.
+
+
+    Sarah greets us with a nice pat and tells us what good boys we are. Let''s get
+    ready to go outside! Which door should we wait by with our leash?
+
+
+    1. Back door
+
+    2. Front door'
+  nextStates:
+  - {fileID: 11400000, guid: 2bfa8b5486eb24eeea51dadadbd5e178, type: 2}
+  - {fileID: 11400000, guid: bbf05d0b2269b40d0a1f67c3b25a2cc6, type: 2}
